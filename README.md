@@ -76,3 +76,29 @@ Make sure you have **Python 3.11+** installed:
 
 ```bash
 python --version
+
+
+2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Set up environment variables
+Create a .env file in the root directory and configure the necessary environment variables.
+
+💡 Example:
+---- .env.example ----
+
+4. Enable Tracing with LangSmith
+LangSmith helps trace and debug your agents effectively.
+Check out the:
+
+[tracing](https://docs.smith.langchain.com/concepts/tracing).
+
+5. (Optional) Use LangGraph Studio
+You can launch an interactive development studio for LangGraph using:
+
+```bash
+langgraph dev
+
